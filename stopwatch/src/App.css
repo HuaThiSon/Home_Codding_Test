@@ -1,0 +1,73 @@
+body {
+background:#a0c2dd;
+}
+
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+.main-section {
+background: transparent;
+max-width: 600px;
+width: 90%;
+height: 500px;
+margin: 30px auto;
+}
+
+.clock-holder {
+width: 100%;
+background: #fff;
+margin: 30px auto;
+position: relative;
+}
+
+
+.stopwatch {
+padding: 60px 0px;
+text-align: center;
+}
+.stopwatch span{
+background: #1a2345e3;
+color: #fff;
+display: inline-block;
+font-family: monospace;
+font-size: 50px;
+padding: 20px;
+margin-top: 179px;
+border-radius: 5px;
+width: 143px;
+height: 99px;
+}
+
+.stopwatch .stopwatch-btn {
+background: #fff;
+margin-top: 30px;
+margin-left: 5px;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+text-transform: uppercase;
+width: 150px;
+transition: background 1s;
+cursor: pointer;
+}
+.stopwatch .stopwatch-btn-red{
+border: 2px solid #C85454;
+color: #C85454;
+}
+.stopwatch .stopwatch-btn-gre{
+border: 2px solid #00ABA9;
+color: #00ABA9;
+}
+.stopwatch .stopwatch-btn-red:hover {
+background: #C85454;
+border: 2px solid #C85454;
+color: #fff;
+}
+.stopwatch .stopwatch-btn-gre:hover {
+background: #00ABA9;
+border: 2px solid #00ABA9;
+color: #fff;
+}
